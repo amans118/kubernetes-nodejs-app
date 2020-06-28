@@ -29,3 +29,4 @@ spec:
           requests:
             cpu: 100m
             memory: 64Mi
+      priorityClassName: high-priority-nonpreemptive
