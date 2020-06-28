@@ -15,13 +15,13 @@ spec:
       labels:
         app: nodejs-app
     spec:
-	  imagePullSecrets:
-	  - name: docker-key
+      imagePullSecrets:
+      - name: docker-key
       containers:
       - image: 647833373684.dkr.ecr.ap-southeast-1.amazonaws.com/nodejs-test:latest
         name: nodejs-test
-		ports:
-		- containerPort: 3000
+	ports:
+	- containerPort: 3000
         resources:
           limits:
             cpu: 400m
