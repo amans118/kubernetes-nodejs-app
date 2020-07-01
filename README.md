@@ -12,4 +12,5 @@ containers:
     - --secure-port=4443
     - --kubelet-insecure-tls
     - --kubelet-preferred-address-types=InternalIP,Hostname,InternalDNS,ExternalDNS,ExternalIP
+hostNetwork: true
 ```
